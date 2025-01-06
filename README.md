@@ -1,14 +1,46 @@
-# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+NAME : BARKAVI
+
+REFERENCE NAME : 24901000
+
+EXPERIMENT NUMBER : 10 SERIAL IN SERIAL OUT SHIFT REGISTER
+
 
 **AIM:**
 
-To implement  SISO Shift Register using verilog and validating their functionality using their functional tables
+To implement  SISO Shift Register using verilog and validating their functionality using their functional table
 
 **SOFTWARE REQUIRED:**
 
 Quartus prime
 
 **THEORY**
+
+A SISO (Serial-In Serial-Out) shift register is a digital circuit used to store and shift data one bit at a time. It is a fundamental building block in digital electronics, particularly in sequential logic systems. Here is a detailed theory about SISO shift registers:
+
+Definition:
+A SISO shift register is a type of shift register where data is input serially (one bit at a time) and output serially, in the same sequence, after a series of clock pulses.
+
+
+A SISO (Serial-In Serial-Out) shift register is a digital circuit used to store and shift data one bit at a time. It is a fundamental building block in digital electronics, particularly in sequential logic systems. Here is a detailed theory about SISO shift registers:
+
+Definition:
+A SISO shift register is a type of shift register where data is input serially (one bit at a time) and output serially, in the same sequence, after a series of clock pulses.
+
+Components:
+Flip-Flops:
+
+A series of D-type or JK flip-flops are connected in a chain.
+The number of flip-flops determines the length of the register (e.g., 4-bit SISO uses 4 flip-flops).
+Clock Signal:
+
+A shared clock drives the flip-flops, synchronizing data movement.
+Serial Input (SI):
+
+The data to be stored and shifted enters the first flip-flop through the serial input.
+Serial Output (SO):
+
+The shifted data exits the last flip-flop through the serial output.
+
 
 **SISO shift Register**
 
@@ -25,18 +57,32 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
-/* write all the steps invloved */
+ write all the steps invloved 
+
+1. Type the program in Quartus software.
+2. Compile and run the program.
+3. Generate the RTL schematic and save the logic diagram.
+4. Create nodes for inputs and outputs to generate the timing diagram.
+5. For different input combinations generate the timing diagram
+
+
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+![Screenshot (126)](https://github.com/user-attachments/assets/c786d878-3573-434b-9908-2486528cc919)
 
-*/
 
 **RTL LOGIC FOR SISO Shift Register**
 
+
+![Screenshot (124)](https://github.com/user-attachments/assets/ea167c6c-9159-4272-af43-a9b74f636602)
+
 **TIMING DIGRAMS FOR SISO Shift Register**
+![Screenshot (125)](https://github.com/user-attachments/assets/fd19fca0-b14c-4354-98c6-35d08ddcb121)
+
 
 **RESULTS**
+
+The SISO Shift Register using verilog and validating their functionality usingtheir functional tables is verified.
