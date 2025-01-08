@@ -77,11 +77,12 @@ Program for flipflops and verify its truth table in quartus using Verilog progra
 **RTL LOGIC FOR SISO Shift Register**
 
 
+
 ![Screenshot (124)](https://github.com/user-attachments/assets/ea167c6c-9159-4272-af43-a9b74f636602)
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-![Screenshot (125)](https://github.com/user-attachments/assets/fd19fca0-b14c-4354-98c6-35d08ddcb121)
 
+![Screenshot (145)](https://github.com/user-attachments/assets/cbccc9e2-2ddc-4dc0-99dd-5c6e2796a932)
 
 **RESULTS**
 
